@@ -1,0 +1,23 @@
+{
+  "name": "polynomial-secret-recovery",
+  "version": "1.0.0",
+  "description": "Secret sharing decoder using Lagrange interpolation to recover polynomial constants",
+  "main": "polynomial_secret.js",
+  "scripts": {
+    "start": "node polynomial_secret.js",
+    "test": "node polynomial_secret.js test_cases/test2.json"
+  },
+  "keywords": [
+    "lagrange-interpolation",
+    "polynomial",
+    "secret-sharing",
+    "cryptography",
+    "base-conversion"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/polynomial-secret-recovery.git"
+  }
+}
